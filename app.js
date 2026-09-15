@@ -8,8 +8,10 @@ app.get("/",(req,res) => {
 })
 
 
-//create a todo
-//title,description,category,
+
+//Continue
+//THE ERR CAME FROM THE LINE 18, BUT IN RESPONSE I DID NOT SEND ANY ERR RESPONSE. HOW DOES THAT WORK?
+//WHAT DOES CODE CRASH MEAN
 
 app.post("/note",(req,res) =>{
     console.log("Running this code....");
